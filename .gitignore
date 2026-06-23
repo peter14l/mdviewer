@@ -2,6 +2,9 @@
 mdviewer/target/
 mdviewer/Cargo.lock
 
+# Portable EXE (released separately)
+mdviewer.exe
+
 # Windows junk
 Thumbs.db
 Desktop.ini
