@@ -1,0 +1,16 @@
+[package]
+name = "mdviewer"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+eframe = { version = "0.34", default-features = false, features = ["default_fonts", "glow"] }
+egui_commonmark = "0.23"
+pulldown-cmark = "0.13"
+rfd = "0.15"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+strip = true

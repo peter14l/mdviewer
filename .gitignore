@@ -1,0 +1,20 @@
+# Rust build artifacts
+mdviewer/target/
+mdviewer/Cargo.lock
+
+# Windows junk
+Thumbs.db
+Desktop.ini
+
+# Environment / secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
