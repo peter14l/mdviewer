@@ -1,20 +1,19 @@
 # Rust build artifacts
-mdviewer/target/
-mdviewer/Cargo.lock
+target/
+Cargo.lock
 
 # Portable EXE (released separately)
 mdviewer.exe
 
+# MCP server files (not part of this project)
+SETUP.md
+hn-server.py
+reddit-server.py
+.env
+
 # Windows junk
 Thumbs.db
 Desktop.ini
-
-# Environment / secrets
-.env
-
-# Python cache
-__pycache__/
-*.pyc
 
 # IDE
 .vscode/
